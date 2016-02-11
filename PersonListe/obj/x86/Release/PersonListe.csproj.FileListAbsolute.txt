@@ -1,0 +1,22 @@
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Release\PersonListe.PersonListeForm.resources
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Release\PersonListe.Properties.Resources.resources
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Release\PersonListe.csproj.GenerateResource.Cache
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Release\PersonListe.exe
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\bin\Release\PersonListe.pdb
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Release\PersonListe.exe
+C:\Users\Salvatorex\AppData\Local\Temporary Projects\WindowsFormsApplication1\obj\x86\Release\PersonListe.pdb
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\obj\x86\Release\PersonListe.exe
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\obj\x86\Release\PersonListe.pdb
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\bin\Release\PersonListe.exe
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\bin\Release\PersonListe.pdb
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\obj\x86\Release\PersonListe.PersonListeForm.resources
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\obj\x86\Release\PersonListe.Properties.Resources.resources
+C:\Users\Salvatorex\documents\visual studio 2010\Projects\PersonListe\PersonListe\obj\x86\Release\PersonListe.csproj.GenerateResource.Cache
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.GUI.PersonListeForm.resources
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.Properties.Resources.resources
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.csproj.GenerateResource.Cache
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.exe
+G:\PersonListe\PersonListe\bin\Release\PersonListe.exe
+G:\PersonListe\PersonListe\bin\Release\PersonListe.pdb
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.pdb
+G:\PersonListe\PersonListe\obj\x86\Release\PersonListe.csprojResolveAssemblyReference.cache
