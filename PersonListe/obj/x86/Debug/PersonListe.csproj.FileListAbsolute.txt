@@ -77,3 +77,12 @@ E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\C#\Projekter\PersonList
 E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\C#\Projekter\PersonListe med DataGridView\PersonListe\obj\x86\Debug\PersonListe.GUI.PersonListeForm.resources
 E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\C#\Projekter\PersonListe med DataGridView\PersonListe\obj\x86\Debug\PersonListe.Properties.Resources.resources
 E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\C#\Projekter\PersonListe med DataGridView\PersonListe\obj\x86\Debug\PersonListe.csproj.GenerateResource.Cache
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\bin\Debug\PersonListe.exe.config
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.exe
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.pdb
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\bin\Debug\PersonListe.exe
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\bin\Debug\PersonListe.pdb
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.csprojResolveAssemblyReference.cache
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.GUI.PersonListeForm.resources
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.Properties.Resources.resources
+E:\Dropbox (Personlig)\Undervisning\Softwarekonstruktion\GitHub\CSharp-PersonList\PersonListe\obj\x86\Debug\PersonListe.csproj.GenerateResource.Cache

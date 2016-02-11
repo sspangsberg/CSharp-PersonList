@@ -20,6 +20,7 @@ namespace PersonListe.BL
         public string Position { get; set; }
         public int Age { get; set; }
 
+
         #endregion
 
         #region Constructors
