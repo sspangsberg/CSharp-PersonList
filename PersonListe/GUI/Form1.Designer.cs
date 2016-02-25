@@ -31,19 +31,19 @@
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.lblFirstName = new System.Windows.Forms.Label();
             this.gbPersonData = new System.Windows.Forms.GroupBox();
+            this.btnClearForm = new System.Windows.Forms.Button();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.lblAlder = new System.Windows.Forms.Label();
             this.txtPosition = new System.Windows.Forms.TextBox();
             this.lblStilling = new System.Windows.Forms.Label();
-            this.txtLastName = new System.Windows.Forms.TextBox();
-            this.lblLastName = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnCreate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.btnCreate = new System.Windows.Forms.Button();
             this.dgvPersons = new System.Windows.Forms.DataGridView();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
-            this.btnClearForm = new System.Windows.Forms.Button();
             this.gbPersonData.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersons)).BeginInit();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             // 
             this.txtFirstName.Location = new System.Drawing.Point(88, 26);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(112, 20);
+            this.txtFirstName.Size = new System.Drawing.Size(180, 20);
             this.txtFirstName.TabIndex = 1;
             // 
             // lblFirstName
@@ -66,31 +66,36 @@
             // 
             // gbPersonData
             // 
-            this.gbPersonData.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.gbPersonData.Controls.Add(this.btnClearForm);
             this.gbPersonData.Controls.Add(this.txtAge);
             this.gbPersonData.Controls.Add(this.lblAlder);
             this.gbPersonData.Controls.Add(this.txtPosition);
             this.gbPersonData.Controls.Add(this.lblStilling);
-            this.gbPersonData.Controls.Add(this.btnDelete);
             this.gbPersonData.Controls.Add(this.txtLastName);
-            this.gbPersonData.Controls.Add(this.btnSave);
             this.gbPersonData.Controls.Add(this.lblLastName);
-            this.gbPersonData.Controls.Add(this.btnCreate);
             this.gbPersonData.Controls.Add(this.txtFirstName);
             this.gbPersonData.Controls.Add(this.lblFirstName);
-            this.gbPersonData.Location = new System.Drawing.Point(33, 287);
+            this.gbPersonData.Location = new System.Drawing.Point(3, 208);
             this.gbPersonData.Name = "gbPersonData";
-            this.gbPersonData.Size = new System.Drawing.Size(347, 160);
+            this.gbPersonData.Size = new System.Drawing.Size(317, 167);
             this.gbPersonData.TabIndex = 3;
             this.gbPersonData.TabStop = false;
             this.gbPersonData.Text = "Person Data";
+            // 
+            // btnClearForm
+            // 
+            this.btnClearForm.Location = new System.Drawing.Point(344, 333);
+            this.btnClearForm.Name = "btnClearForm";
+            this.btnClearForm.Size = new System.Drawing.Size(75, 31);
+            this.btnClearForm.TabIndex = 21;
+            this.btnClearForm.Text = "Clear Form";
+            this.btnClearForm.UseVisualStyleBackColor = true;
+            this.btnClearForm.Click += new System.EventHandler(this.btnClearForm_Click);
             // 
             // txtAge
             // 
             this.txtAge.Location = new System.Drawing.Point(88, 111);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(112, 20);
+            this.txtAge.Size = new System.Drawing.Size(180, 20);
             this.txtAge.TabIndex = 7;
             this.txtAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAge_KeyPress);
             // 
@@ -107,9 +112,8 @@
             // 
             this.txtPosition.Location = new System.Drawing.Point(88, 84);
             this.txtPosition.Name = "txtPosition";
-            this.txtPosition.Size = new System.Drawing.Size(112, 20);
+            this.txtPosition.Size = new System.Drawing.Size(180, 20);
             this.txtPosition.TabIndex = 5;
-            this.txtPosition.TextChanged += new System.EventHandler(this.txtPosition_TextChanged);
             // 
             // lblStilling
             // 
@@ -120,12 +124,32 @@
             this.lblStilling.TabIndex = 6;
             this.lblStilling.Text = "Position:";
             // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(344, 296);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(75, 31);
+            this.btnDelete.TabIndex = 15;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
             // txtLastName
             // 
             this.txtLastName.Location = new System.Drawing.Point(88, 54);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(112, 20);
+            this.txtLastName.Size = new System.Drawing.Size(180, 20);
             this.txtLastName.TabIndex = 3;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(344, 259);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 31);
+            this.btnSave.TabIndex = 9;
+            this.btnSave.Text = "Update";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // lblLastName
             // 
@@ -136,35 +160,15 @@
             this.lblLastName.TabIndex = 4;
             this.lblLastName.Text = "Last Name:";
             // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(221, 48);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 31);
-            this.btnSave.TabIndex = 9;
-            this.btnSave.Text = "Update";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
             // btnCreate
             // 
-            this.btnCreate.Location = new System.Drawing.Point(221, 11);
+            this.btnCreate.Location = new System.Drawing.Point(344, 222);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(75, 31);
             this.btnCreate.TabIndex = 4;
             this.btnCreate.Text = "Create";
             this.btnCreate.UseVisualStyleBackColor = true;
             this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(221, 86);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(75, 31);
-            this.btnDelete.TabIndex = 15;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // dgvPersons
             // 
@@ -202,31 +206,23 @@
             this.lblSearch.TabIndex = 19;
             this.lblSearch.Text = "Search for Person:";
             // 
-            // btnClearForm
-            // 
-            this.btnClearForm.Location = new System.Drawing.Point(221, 123);
-            this.btnClearForm.Name = "btnClearForm";
-            this.btnClearForm.Size = new System.Drawing.Size(75, 31);
-            this.btnClearForm.TabIndex = 21;
-            this.btnClearForm.Text = "Clear Form";
-            this.btnClearForm.UseVisualStyleBackColor = true;
-            this.btnClearForm.Click += new System.EventHandler(this.btnClearForm_Click);
-            // 
             // PersonListeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.ClientSize = new System.Drawing.Size(431, 382);
+            this.Controls.Add(this.btnClearForm);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.dgvPersons);
             this.Controls.Add(this.gbPersonData);
+            this.Controls.Add(this.btnCreate);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnSave);
             this.MinimizeBox = false;
             this.Name = "PersonListeForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "PersonListe";
-            this.Load += new System.EventHandler(this.PersonListeForm_Load);
-            this.Resize += new System.EventHandler(this.PersonListeForm_Resize);
             this.gbPersonData.ResumeLayout(false);
             this.gbPersonData.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPersons)).EndInit();

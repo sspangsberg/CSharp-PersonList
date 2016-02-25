@@ -224,25 +224,6 @@ namespace PersonListe.GUI
             }
         }
 
-        #endregion         
-
-        private void txtPosition_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PersonListeForm_Resize(object sender, EventArgs e)
-        {
-            dgvPersons.Size = new Size(Size.Width - 22, dgvPersons.Size.Height);
-
-
-
-            //MessageBox.Show("Width:" + Size.Width + ",Height:" + Size.Height);
-        }
-
-        private void PersonListeForm_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("form loading...");
-        }
+        #endregion                
     }
 }
